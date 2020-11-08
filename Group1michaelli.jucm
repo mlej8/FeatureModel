@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 7, 2020 at 7:55:25 PM EST" specVersion="34" urnVersion="1.27" nextGlobalID="3360">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 8, 2020 at 6:38:53 PM EST" specVersion="35" urnVersion="1.27" nextGlobalID="3398">
   <ucmspec>
     <scenarioGroups name="Scenario definitions" id="7">
       <scenarios name="Share entire screen" id="8" description="A user would like to share its entire screen with default settings">
@@ -40,13 +40,13 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Video" id="27" linksDest="161 268 917" linksSrc="216 3131" type="Task" refs="28 2902">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Recording" id="31" linksSrc="773 3124" type="Task" refs="32 2450" selectable="true">
       <metadata name="_addAggregate" value="disable"/>
@@ -57,7 +57,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Polling" id="35" linksSrc="608 3123" type="Task" refs="135 2514" selectable="true">
       <metadata name="_addAggregate" value="disable"/>
@@ -68,25 +68,25 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Chat" id="43" linksSrc="296 3125 3126" type="Task" refs="44 2700">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Participant management" id="73" linksDest="1045 1078 1128 1141 2061 2064" linksSrc="510 3121" type="Task" refs="74 2812">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Meeting access" id="116" linksDest="874 883" linksSrc="872 3132" type="Task" refs="117 3055">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Share" id="124" type="Task">
       <metadata name="_numEval" value="0"/>
@@ -105,13 +105,13 @@
       <metadata name="stopSharing" value="true"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Create groups" id="359" linksSrc="509 3119" type="Task" refs="360 2345">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Groups" id="471" linksDest="509 510 546 1091 1108 2063" linksSrc="492" type="Task" refs="472">
       <metadata name="_addAggregate" value="disable"/>
@@ -122,25 +122,25 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Automatically assign participant to group" id="775" linksSrc="1078" type="Task" refs="776">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Manually assign participant to group" id="777" linksSrc="1045" type="Task" refs="778">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Broadcast message" id="792" linksSrc="1091 3129" type="Task" refs="793 3112">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Timed end group" id="829" linksSrc="921" type="Task" refs="830">
       <metadata name="_addAggregate" value="disable"/>
@@ -151,19 +151,19 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Leave meeting" id="864" linksSrc="874" type="Task" refs="865">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Join meeting" id="876" linksSrc="883" type="Task" refs="877">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Virtual background" id="911" linksSrc="917" type="Task" refs="912">
       <metadata name="_addAggregate" value="disable"/>
@@ -174,31 +174,31 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="End all groups" id="965" linksSrc="985" type="Task" refs="966">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Preassign participants to group" id="987" linksSrc="2064" type="Task" refs="988">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Request for help" id="995" linksSrc="2063 3128" type="Task" refs="996 2759">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Move participant from a group to another" id="1026" linksSrc="2061" type="Task" refs="1027">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Group permissions" id="1102" linksDest="1149" linksSrc="1108" type="Task" refs="1103">
       <metadata name="_addAggregate" value="disable"/>
@@ -209,7 +209,7 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20201107-194454709"/>
+      <metadata name="_autoSelected" value="20201108-183815534"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Let participants choose group" id="1135" linksSrc="1141" type="Task" refs="1136">
       <metadata name="_addAggregate" value="disable"/>
@@ -508,7 +508,7 @@
         <metadata name="_height" value="52"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef912" id="912" x="918" y="381" succ="//@urndef/@specDiagrams.0/@connections.15" def="911">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef912" id="912" x="927" y="382" succ="//@urndef/@specDiagrams.0/@connections.15" def="911">
         <metadata name="_height" value="52"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -631,7 +631,6 @@
       <connections xsi:type="grl:LinkRef" source="988" target="74" link="2064">
         <label deltaX="30" deltaY="-30"/>
       </connections>
-      <comments description="Video feature &lt;&lt;includes>> Audio feature&#xD;&#xA;" x="411" y="405" width="100" height="100" fillColor="255,255,200"/>
     </specDiagrams>
     <specDiagrams xsi:type="grl:GRLGraph" name="Stakeholder (Instructor)" id="3156">
       <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef3231" id="3231" x="345" y="412" contRef="3158" pred="//@urndef/@specDiagrams.1/@connections.0" def="2085">
@@ -830,70 +829,70 @@
     <specDiagrams xsi:type="ucm.map:UCMmap" name="Screen sharing" toLinks="//@urnLinks.0" id="3">
       <nodes xsi:type="ucm.map:StartPoint" name="Ready to share screen" id="1152" x="584" y="355" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.0/@startPoints.0 //@ucmspec/@scenarioGroups.0/@scenarios.1/@startPoints.0">
         <metadata name="_hits" value="1"/>
-        <label deltaX="-3" deltaY="-52"/>
+        <label deltaX="4" deltaY="13"/>
         <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:EndPoint" name="Screen sharing" id="1154" x="1874" y="358" contRef="2054" pred="//@urndef/@specDiagrams.3/@connections.9" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.0/@endPoints.1">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
         <label deltaX="21" deltaY="4"/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1179" id="1179" x="786" y="357" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.1" pred="//@urndef/@specDiagrams.3/@connections.11" respDef="1178">
-        <metadata name="_hits" value="1"/>
-        <label deltaX="8" deltaY="8"/>
+        <metadata name="_hits" value="0"/>
+        <label deltaX="7" deltaY="8"/>
       </nodes>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint1307" id="1307" x="1739" y="692" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.3" pred="//@urndef/@specDiagrams.3/@connections.2">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:EndPoint" name="Stopped sharing" id="1308" x="1870" y="707" contRef="2054" pred="//@urndef/@specDiagrams.3/@connections.3" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.1/@endPoints.0">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
         <label deltaX="30" deltaY="-49"/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1393" id="1393" x="953" y="349" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.4" pred="//@urndef/@specDiagrams.3/@connections.1" respDef="1392">
-        <metadata name="_hits" value="1"/>
-        <label deltaY="2"/>
+        <metadata name="_hits" value="0"/>
+        <label deltaX="2" deltaY="2"/>
       </nodes>
       <nodes xsi:type="ucm.map:OrFork" name="OrFork1416" id="1416" x="1149" y="348" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.5 //@urndef/@specDiagrams.3/@connections.6" pred="//@urndef/@specDiagrams.3/@connections.18">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
       </nodes>
       <nodes xsi:type="ucm.map:OrJoin" name="OrJoin1451" id="1451" x="1573" y="357" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.7" pred="//@urndef/@specDiagrams.3/@connections.17 //@urndef/@specDiagrams.3/@connections.23">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
       </nodes>
       <nodes xsi:type="ucm.map:OrFork" name="OrFork1306" id="1306" x="1731" y="359" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.8 //@urndef/@specDiagrams.3/@connections.2" pred="//@urndef/@specDiagrams.3/@connections.14">
         <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint1153" id="1153" x="1811" y="359" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.9" pred="//@urndef/@specDiagrams.3/@connections.8">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1549" id="1549" x="1645" y="361" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.10" pred="//@urndef/@specDiagrams.3/@connections.21" respDef="1548">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
         <label deltaX="-14" deltaY="5"/>
       </nodes>
       <nodes xsi:type="ucm.map:OrFork" name="OrFork1650" id="1650" x="673" y="355" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.11 //@urndef/@specDiagrams.3/@connections.12" pred="//@urndef/@specDiagrams.3/@connections.0">
         <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint1651" id="1651" x="851" y="638" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.13" pred="//@urndef/@specDiagrams.3/@connections.12">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:OrJoin" name="OrJoin1655" id="1655" x="1669" y="361" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.14" pred="//@urndef/@specDiagrams.3/@connections.10 //@urndef/@specDiagrams.3/@connections.15">
         <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint1656" id="1656" x="1676" y="529" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.15" pred="//@urndef/@specDiagrams.3/@connections.16">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint1660" id="1660" x="1458" y="619" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.16" pred="//@urndef/@specDiagrams.3/@connections.13">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1785" id="1785" x="1379" y="350" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.17" pred="//@urndef/@specDiagrams.3/@connections.5" respDef="1784">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
         <label/>
       </nodes>
       <nodes xsi:type="ucm.map:AndFork" name="AndFork1870" id="1870" x="1060" y="354" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.18 //@urndef/@specDiagrams.3/@connections.19" pred="//@urndef/@specDiagrams.3/@connections.4">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
       </nodes>
       <nodes xsi:type="ucm.map:Stub" name="Select screen to share" id="1890" x="1282" y="396" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.20" pred="//@urndef/@specDiagrams.3/@connections.19" dynamic="true">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
         <label deltaX="6" deltaY="-57"/>
         <bindings plugin="1196">
           <in startPoint="1198" stubEntry="//@urndef/@specDiagrams.3/@connections.19"/>
@@ -912,7 +911,7 @@
         </bindings>
       </nodes>
       <nodes xsi:type="ucm.map:AndJoin" name="AndJoin1892" id="1892" x="1612" y="359" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.21" pred="//@urndef/@specDiagrams.3/@connections.7 //@urndef/@specDiagrams.3/@connections.20">
-        <metadata name="_hits" value="2"/>
+        <metadata name="_hits" value="0"/>
       </nodes>
       <nodes xsi:type="ucm.map:Stub" name="Select custom sharing settings" id="1916" x="1285" y="253" contRef="2054" succ="//@urndef/@specDiagrams.3/@connections.22" pred="//@urndef/@specDiagrams.3/@connections.6" dynamic="true">
         <metadata name="_hits" value="0"/>
@@ -1095,17 +1094,17 @@
     </specDiagrams>
     <specDiagrams xsi:type="ucm.map:UCMmap" name="Select entire screen" id="1398" parentStub="//@urndef/@specDiagrams.3/@nodes.18/@bindings.2">
       <nodes xsi:type="ucm.map:EndPoint" name="Selected sharing target" id="1401" x="942" y="335" contRef="1400" pred="//@urndef/@specDiagrams.9/@connections.1" outBindings="//@urndef/@specDiagrams.3/@nodes.18/@bindings.2/@out.0" scenarioEndPoints="//@ucmspec/@scenarioGroups.0/@scenarios.0/@endPoints.0">
-        <metadata name="_hits" value="2"/>
+        <metadata name="_hits" value="0"/>
         <label/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:StartPoint" name="Choosing screen to share" id="1402" x="180" y="332" contRef="1400" succ="//@urndef/@specDiagrams.9/@connections.0" inBindings="//@urndef/@specDiagrams.3/@nodes.18/@bindings.2/@in.0" scenarioStartPoints="//@ucmspec/@scenarioGroups.0/@scenarios.0/@startPoints.1">
-        <metadata name="_hits" value="2"/>
+        <metadata name="_hits" value="0"/>
         <label/>
         <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1405" id="1405" x="505" y="333" contRef="1400" succ="//@urndef/@specDiagrams.9/@connections.1" pred="//@urndef/@specDiagrams.9/@connections.0" respDef="1404">
-        <metadata name="_hits" value="2"/>
+        <metadata name="_hits" value="0"/>
         <label/>
       </nodes>
       <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1265" id="1400" x="71" y="280" width="962" height="130" contDef="1184" nodes="1401 1402 1405">
