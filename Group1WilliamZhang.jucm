@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 8, 2020 at 8:35:00 PM EST" specVersion="42" urnVersion="1.27" nextGlobalID="3046">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 8, 2020 at 10:43:55 PM EST" specVersion="46" urnVersion="1.27" nextGlobalID="3067">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8"/>
@@ -660,25 +660,25 @@
       </connections>
     </specDiagrams>
     <specDiagrams xsi:type="ucm.map:UCMmap" name="Create Group" id="2387">
-      <nodes xsi:type="ucm.map:StartPoint" name="ready to create room" id="2422" x="229" y="374" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.0">
+      <nodes xsi:type="ucm.map:StartPoint" name="ready to create room" id="2422" x="225" y="366" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.0">
         <label/>
         <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
       </nodes>
-      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2423" id="2423" x="719" y="352" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.1" pred="//@urndef/@specDiagrams.3/@connections.5"/>
-      <nodes xsi:type="ucm.map:EndPoint" name="Create group" id="2424" x="1120" y="353" contRef="2432" pred="//@urndef/@specDiagrams.3/@connections.14">
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2423" id="2423" x="725" y="352" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.1" pred="//@urndef/@specDiagrams.3/@connections.5"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Create group(s)" id="2424" x="1139" y="364" contRef="2432" pred="//@urndef/@specDiagrams.3/@connections.14">
         <label/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
-      <nodes xsi:type="ucm.map:AndFork" name="AndFork2474" id="2474" x="462" y="361" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.2 //@urndef/@specDiagrams.3/@connections.3" pred="//@urndef/@specDiagrams.3/@connections.0"/>
-      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2475" id="2475" x="498" y="297" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.4" pred="//@urndef/@specDiagrams.3/@connections.3"/>
-      <nodes xsi:type="ucm.map:AndJoin" name="AndJoin2502" id="2502" x="681" y="353" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.5" pred="//@urndef/@specDiagrams.3/@connections.8 //@urndef/@specDiagrams.3/@connections.6"/>
-      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2503" id="2503" x="636" y="297" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.6" pred="//@urndef/@specDiagrams.3/@connections.10"/>
-      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2546" id="2546" x="504" y="412" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.7" pred="//@urndef/@specDiagrams.3/@connections.2"/>
-      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2557" id="2557" x="633" y="412" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.8" pred="//@urndef/@specDiagrams.3/@connections.9"/>
-      <nodes xsi:type="ucm.map:RespRef" name="RespRef2559" id="2559" x="569" y="416" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.9" pred="//@urndef/@specDiagrams.3/@connections.7" respDef="2558">
+      <nodes xsi:type="ucm.map:AndFork" name="AndFork2474" id="2474" x="468" y="361" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.2 //@urndef/@specDiagrams.3/@connections.3" pred="//@urndef/@specDiagrams.3/@connections.0"/>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2475" id="2475" x="504" y="297" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.4" pred="//@urndef/@specDiagrams.3/@connections.3"/>
+      <nodes xsi:type="ucm.map:AndJoin" name="AndJoin2502" id="2502" x="687" y="353" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.5" pred="//@urndef/@specDiagrams.3/@connections.8 //@urndef/@specDiagrams.3/@connections.6"/>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2503" id="2503" x="642" y="297" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.6" pred="//@urndef/@specDiagrams.3/@connections.10"/>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2546" id="2546" x="510" y="412" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.7" pred="//@urndef/@specDiagrams.3/@connections.2"/>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2557" id="2557" x="639" y="412" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.8" pred="//@urndef/@specDiagrams.3/@connections.9"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef2559" id="2559" x="575" y="416" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.9" pred="//@urndef/@specDiagrams.3/@connections.7" respDef="2558">
         <label deltaX="2" deltaY="-42"/>
       </nodes>
-      <nodes xsi:type="ucm.map:Stub" name="Set assignment options" id="2576" x="562" y="291" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.10" pred="//@urndef/@specDiagrams.3/@connections.4">
+      <nodes xsi:type="ucm.map:Stub" name="Set assignment options" id="2576" x="568" y="291" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.10" pred="//@urndef/@specDiagrams.3/@connections.4">
         <label/>
         <bindings plugin="2569">
           <in startPoint="2571" stubEntry="//@urndef/@specDiagrams.3/@connections.4"/>
@@ -686,22 +686,28 @@
           <precondition label="" expression="true"/>
         </bindings>
       </nodes>
-      <nodes xsi:type="ucm.map:Stub" name="Set additional room settings" id="2742" x="799" y="351" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.11 //@urndef/@specDiagrams.3/@connections.12" pred="//@urndef/@specDiagrams.3/@connections.1">
+      <nodes xsi:type="ucm.map:Stub" name="Set additional room settings" id="2742" x="805" y="351" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.11 //@urndef/@specDiagrams.3/@connections.12 //@urndef/@specDiagrams.3/@connections.15" pred="//@urndef/@specDiagrams.3/@connections.1">
         <label/>
         <bindings plugin="2735">
           <in startPoint="2737" stubEntry="//@urndef/@specDiagrams.3/@connections.1"/>
           <out endPoint="2738" stubExit="//@urndef/@specDiagrams.3/@connections.11"/>
           <out endPoint="2928" stubExit="//@urndef/@specDiagrams.3/@connections.12"/>
+          <out endPoint="3054" stubExit="//@urndef/@specDiagrams.3/@connections.15"/>
           <precondition label="" expression="true"/>
         </bindings>
       </nodes>
-      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint3015" id="3015" x="873" y="506" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.13" pred="//@urndef/@specDiagrams.3/@connections.12"/>
-      <nodes xsi:type="ucm.map:EndPoint" name="Create timed breakout group" id="3016" x="1127" y="489" contRef="2432" pred="//@urndef/@specDiagrams.3/@connections.13">
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint3015" id="3015" x="879" y="506" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.13" pred="//@urndef/@specDiagrams.3/@connections.12"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Create timed breakout group(s)" id="3016" x="1133" y="489" contRef="2432" pred="//@urndef/@specDiagrams.3/@connections.13">
         <label/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
-      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint3045" id="3045" x="882" y="352" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.14" pred="//@urndef/@specDiagrams.3/@connections.11"/>
-      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef2432" id="2432" x="117" y="191" width="1267" height="382" contDef="2431" nodes="2422 2423 2424 2474 2475 2502 2503 2546 2557 2559 2576 2742 3015 3016 3045">
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint3045" id="3045" x="947" y="359" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.14" pred="//@urndef/@specDiagrams.3/@connections.11"/>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint3056" id="3056" x="883" y="261" contRef="2432" succ="//@urndef/@specDiagrams.3/@connections.16" pred="//@urndef/@specDiagrams.3/@connections.15"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="Create group(s) and move participant(s)" id="3057" x="1125" y="258" contRef="2432" pred="//@urndef/@specDiagrams.3/@connections.16">
+        <label/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef2432" id="2432" x="123" y="191" width="1267" height="382" contDef="2431" nodes="2422 2423 2424 2474 2475 2502 2503 2546 2557 2559 2576 2742 3015 3016 3045 3056 3057">
         <label/>
       </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="2422" target="2474"/>
@@ -719,6 +725,8 @@
       <connections xsi:type="ucm.map:NodeConnection" source="2742" target="3015" outBindings="//@urndef/@specDiagrams.3/@nodes.11/@bindings.0/@out.1"/>
       <connections xsi:type="ucm.map:NodeConnection" source="3015" target="3016"/>
       <connections xsi:type="ucm.map:NodeConnection" source="3045" target="2424"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2742" target="3056" outBindings="//@urndef/@specDiagrams.3/@nodes.11/@bindings.0/@out.2"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3056" target="3057"/>
     </specDiagrams>
     <specDiagrams xsi:type="ucm.map:UCMmap" name="Set assignment options" id="2569" parentStub="//@urndef/@specDiagrams.3/@nodes.10/@bindings.0">
       <nodes xsi:type="ucm.map:EndPoint" name="Selected assignment options" id="2572" x="1058" y="370" pred="//@urndef/@specDiagrams.4/@connections.6" outBindings="//@urndef/@specDiagrams.3/@nodes.10/@bindings.0/@out.0">
@@ -749,7 +757,7 @@
         <condition label="" expression="true" description=""/>
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="2601" target="2602">
-        <condition deltaX="203" deltaY="49" label="If participants can assign themselves" expression="_GRL_Let_participants_choose_group == _GRL_Groups" description="If groups can let particpants assign themselves"/>
+        <condition deltaX="203" deltaY="49" label="participants can assign themselves" expression="_GRL_Let_participants_choose_group == 100" description="If groups can let particpants assign themselves"/>
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="2602" target="2640"/>
       <connections xsi:type="ucm.map:NodeConnection" source="2640" target="2589"/>
@@ -759,7 +767,7 @@
       <connections xsi:type="ucm.map:NodeConnection" source="2683" target="2669"/>
       <connections xsi:type="ucm.map:NodeConnection" source="2685" target="2668"/>
       <connections xsi:type="ucm.map:NodeConnection" source="2601" target="2818">
-        <condition label="" expression="true"/>
+        <condition label="" expression="true" description=""/>
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="2818" target="2683"/>
     </specDiagrams>
@@ -768,8 +776,8 @@
         <label/>
         <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
       </nodes>
-      <nodes xsi:type="ucm.map:EndPoint" name="additional options set for regular group" id="2738" x="1244" y="360" pred="//@urndef/@specDiagrams.5/@connections.21" outBindings="//@urndef/@specDiagrams.3/@nodes.11/@bindings.0/@out.0">
-        <label deltaX="6" deltaY="-47"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="additional options set for regular group" id="2738" x="1244" y="360" pred="//@urndef/@specDiagrams.5/@connections.22" outBindings="//@urndef/@specDiagrams.3/@nodes.11/@bindings.0/@out.0">
+        <label deltaX="-29" deltaY="-47"/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2787" id="2787" x="538" y="253" succ="//@urndef/@specDiagrams.5/@connections.0" pred="//@urndef/@specDiagrams.5/@connections.2"/>
@@ -801,6 +809,12 @@
       <nodes xsi:type="ucm.map:OrFork" name="OrFork2947" id="2947" x="1123" y="229" succ="//@urndef/@specDiagrams.5/@connections.18 //@urndef/@specDiagrams.5/@connections.19" pred="//@urndef/@specDiagrams.5/@connections.17"/>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2948" id="2948" x="1105" y="318" succ="//@urndef/@specDiagrams.5/@connections.20" pred="//@urndef/@specDiagrams.5/@connections.19"/>
       <nodes xsi:type="ucm.map:OrJoin" name="OrJoin2973" id="2973" x="1095" y="359" succ="//@urndef/@specDiagrams.5/@connections.21" pred="//@urndef/@specDiagrams.5/@connections.14 //@urndef/@specDiagrams.5/@connections.20"/>
+      <nodes xsi:type="ucm.map:OrFork" name="OrFork3052" id="3052" x="1156" y="360" succ="//@urndef/@specDiagrams.5/@connections.22 //@urndef/@specDiagrams.5/@connections.23" pred="//@urndef/@specDiagrams.5/@connections.21"/>
+      <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint3053" id="3053" x="1124" y="496" succ="//@urndef/@specDiagrams.5/@connections.24" pred="//@urndef/@specDiagrams.5/@connections.23"/>
+      <nodes xsi:type="ucm.map:EndPoint" name="group will move participants" id="3054" x="1257" y="513" pred="//@urndef/@specDiagrams.5/@connections.24" outBindings="//@urndef/@specDiagrams.3/@nodes.11/@bindings.0/@out.2">
+        <label deltaX="30" deltaY="-44"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
       <connections xsi:type="ucm.map:NodeConnection" source="2787" target="2889"/>
       <connections xsi:type="ucm.map:NodeConnection" source="2737" target="2788"/>
       <connections xsi:type="ucm.map:NodeConnection" source="2788" target="2787"/>
@@ -819,18 +833,25 @@
         <condition label="" expression="true" description=""/>
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="2926" target="2927">
-        <condition deltaX="141" deltaY="25" label="If groups can be timed" expression="_GRL_Timed_end_group == _GRL_Groups" description=""/>
+        <condition deltaX="141" deltaY="25" label="groups can be timed" expression="_GRL_Timed_end_group == 100" description=""/>
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="2927" target="2942"/>
       <connections xsi:type="ucm.map:NodeConnection" source="2942" target="2947"/>
       <connections xsi:type="ucm.map:NodeConnection" source="2947" target="2928">
-        <condition label="if groups are timed" expression="true" description=""/>
+        <condition label="groups are timed" expression="true" description=""/>
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="2947" target="2948">
-        <condition deltaX="-14" label="if groups are not timed" expression="true" description=""/>
+        <condition deltaX="-14" label="groups are not timed" expression="true" description=""/>
       </connections>
       <connections xsi:type="ucm.map:NodeConnection" source="2948" target="2973"/>
-      <connections xsi:type="ucm.map:NodeConnection" source="2973" target="2738"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="2973" target="3052"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="3052" target="2738">
+        <condition label="" expression="true" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="3052" target="3053">
+        <condition deltaX="-10" deltaY="-9" label="movement option on" expression="true" description=""/>
+      </connections>
+      <connections xsi:type="ucm.map:NodeConnection" source="3053" target="3054"/>
     </specDiagrams>
     <components name="Screen Share" toLinks="//@urnLinks.0" id="1184"/>
     <components name="Create Group" id="2431" contRefs="2432"/>
