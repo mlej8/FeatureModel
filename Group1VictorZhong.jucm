@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 8, 2020 at 8:30:40 PM EST" specVersion="67" urnVersion="1.27" nextGlobalID="2267">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 8, 2020 at 8:32:39 PM EST" specVersion="68" urnVersion="1.27" nextGlobalID="2267">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="response accepted, joined" id="8" description="ready to join meeting, meeting started, response present, accepted, meeting joined">
@@ -9,7 +9,7 @@
         <initializations value="true" variable="2209"/>
         <startPoints enabled="true" startPoint="1862"/>
       </scenarios>
-      <scenarios name="response refused, meeting not joined" id="2208" description="ready to join meeting, meeting started, response present, refused, meeting not joined">
+      <scenarios name="response refused, not joined" id="2208" description="ready to join meeting, meeting started, response present, refused, meeting not joined">
         <initializations value="true" variable="1874"/>
         <initializations value="true" variable="2003"/>
         <initializations value="false" variable="2209"/>
@@ -707,7 +707,7 @@
         <label/>
       </nodes>
       <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow1881" id="1881" x="360" y="446" succ="//@urndef/@specDiagrams.3/@connections.4" pred="//@urndef/@specDiagrams.3/@connections.2">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
       </nodes>
       <nodes xsi:type="ucm.map:EndPoint" name="meeting not joined" id="1904" x="812" y="462" pred="//@urndef/@specDiagrams.3/@connections.7">
         <metadata name="_hits" value="1"/>
@@ -715,7 +715,7 @@
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:Stub" name="notify host" id="2153" x="629" y="347" contRef="1897" succ="//@urndef/@specDiagrams.3/@connections.5 //@urndef/@specDiagrams.3/@connections.6" pred="//@urndef/@specDiagrams.3/@connections.1">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
         <label/>
         <bindings plugin="1882">
           <in startPoint="1884" stubEntry="//@urndef/@specDiagrams.3/@connections.1"/>
@@ -728,7 +728,7 @@
         <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:EmptyPoint" name="EmptyPoint2261" id="2261" x="482" y="488" succ="//@urndef/@specDiagrams.3/@connections.8" pred="//@urndef/@specDiagrams.3/@connections.4">
-        <metadata name="_hits" value="1"/>
+        <metadata name="_hits" value="0"/>
       </nodes>
       <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1897" id="1897" x="540" y="301" width="184" height="112" contDef="1896" nodes="2153">
         <label/>
@@ -749,7 +749,7 @@
     </specDiagrams>
     <specDiagrams xsi:type="ucm.map:UCMmap" name="Notify host" id="1882" parentStub="//@urndef/@specDiagrams.3/@nodes.6/@bindings.0">
       <nodes xsi:type="ucm.map:StartPoint" name="ready to request" id="1884" x="232" y="277" contRef="1960" succ="//@urndef/@specDiagrams.4/@connections.0" inBindings="//@urndef/@specDiagrams.3/@nodes.6/@bindings.0/@in.0">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
         <label/>
         <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
       </nodes>
@@ -759,17 +759,17 @@
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef1962" id="1962" x="346" y="279" contRef="1960" succ="//@urndef/@specDiagrams.4/@connections.1" pred="//@urndef/@specDiagrams.4/@connections.0" respDef="1961">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
         <label/>
       </nodes>
       <nodes xsi:type="ucm.map:Timer" name="Timer1963" id="1963" x="417" y="278" contRef="1960" succ="//@urndef/@specDiagrams.4/@connections.2 //@urndef/@specDiagrams.4/@connections.6" pred="//@urndef/@specDiagrams.4/@connections.1 //@urndef/@specDiagrams.4/@connections.10">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:OrFork" name="OrFork1981" id="1981" x="579" y="276" contRef="1960" succ="//@urndef/@specDiagrams.4/@connections.4 //@urndef/@specDiagrams.4/@connections.5" pred="//@urndef/@specDiagrams.4/@connections.2">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:EndPoint" name="request refused" id="1983" x="822" y="375" contRef="1960" pred="//@urndef/@specDiagrams.4/@connections.8" outBindings="//@urndef/@specDiagrams.3/@nodes.6/@bindings.0/@out.1">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
         <label/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
@@ -786,11 +786,11 @@
         <metadata name="_hits" value="0"/>
       </nodes>
       <nodes xsi:type="ucm.map:OrJoin" name="OrJoin2248" id="2248" x="621" y="363" contRef="1960" succ="//@urndef/@specDiagrams.4/@connections.8" pred="//@urndef/@specDiagrams.4/@connections.11 //@urndef/@specDiagrams.4/@connections.7">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <nodes xsi:type="ucm.map:Connect" name="Connect2262" id="2262" x="417" y="278" contRef="1960" succ="//@urndef/@specDiagrams.4/@connections.10" pred="//@urndef/@specDiagrams.4/@connections.9"/>
       <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow2263" id="2263" x="597" y="315" contRef="1960" succ="//@urndef/@specDiagrams.4/@connections.11" pred="//@urndef/@specDiagrams.4/@connections.5">
-        <metadata name="_hits" value="0"/>
+        <metadata name="_hits" value="1"/>
       </nodes>
       <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef1960" id="1960" x="140" y="116" width="778" height="338" contDef="1896" nodes="1884 1962 1885 1963 1981 1983 1968 1966 2206 2248 2262 2263">
         <label/>
