@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 8, 2020 at 10:43:55 PM EST" specVersion="46" urnVersion="1.27" nextGlobalID="3067">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="mlej8" created="November 3, 2020 at 5:35:10 PM EST" modified="November 26, 2020 at 4:59:49 PM EST" specVersion="49" urnVersion="1.27" nextGlobalID="3091">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8"/>
@@ -8,132 +8,241 @@
     <variables name="stopSharing" id="1486"/>
   </ucmspec>
   <grlspec>
-    <intElements xsi:type="fm:Feature" name="Online video conferencing system" id="15" linksDest="216 296 492 608 773 872 1696" type="Task" refs="16"/>
+    <intElements xsi:type="fm:Feature" name="Online video conferencing system" id="15" linksDest="216 296 492 608 773 872 1696" type="Task" refs="16">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
     <intElements xsi:type="fm:Feature" name="Video" id="27" linksDest="161 268 917" linksSrc="216 2297 2298" type="Task" refs="28 2296">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Recording" id="31" linksSrc="773 1802" type="Task" refs="32 1801">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Polling" id="35" linksSrc="608 2053" type="Task" refs="135 2052">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Camera on and off" id="39" linksSrc="161 2186" type="Task" refs="40 2185">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Chat" id="43" linksSrc="296 1836 1837" type="Task" refs="44 1835">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Participant management" id="73" linksDest="1045 1639 1078 1128 1638 1141" linksSrc="510" type="Task" refs="74">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Meeting access" id="116" linksDest="874 883" linksSrc="872" type="Task" refs="117">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Share" id="124" type="Task"/>
-    <intElements xsi:type="fm:Feature" name="Feature132" id="132" type="Task"/>
-    <intElements xsi:type="fm:Feature" name="Feature134" id="134" type="Task"/>
+    <intElements xsi:type="fm:Feature" name="Share" id="124" type="Task">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Feature132" id="132" type="Task">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="Feature134" id="134" type="Task">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
     <intElements xsi:type="fm:Feature" name="Screen sharing" fromLinks="//@urnLinks.0" id="250" linksSrc="268 2022" type="Task" refs="251 2020">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Create groups" id="359" linksSrc="509" type="Task" refs="360">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Groups" id="471" linksDest="509 510 546 1637 1091 1108" linksSrc="492 2248" type="Task" refs="472 2247">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="End group" id="528" linksDest="919 921 985" linksSrc="546" type="Task" decompositionType="Or" refs="529">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Automatically assign participant to group" id="775" linksSrc="1078" type="Task" refs="776">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Manually assign participant to group" id="777" linksSrc="1045" type="Task" refs="778">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Broadcast Message" id="792" linksSrc="1091" type="Task" refs="793">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Timed end group" id="829" linksSrc="921" type="Task" refs="830">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Manually end group" id="838" linksSrc="919" type="Task" refs="839">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Leave meeting" id="864" linksSrc="874" type="Task" refs="865">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Join meeting" id="876" linksSrc="883" type="Task" refs="877">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Virtual background" id="911" linksSrc="917 1905" type="Task" refs="912 1978">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Remove participant from group" id="951" linksSrc="1128" type="Task" refs="952">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="End all groups" id="965" linksSrc="985" type="Task" refs="966">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Preassign participants to group" id="987" linksSrc="1638" type="Task" refs="988">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Request for help" id="995" linksSrc="1637 2105" type="Task" refs="996 2104">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Move participant from a group to another" id="1026" linksSrc="1639" type="Task" refs="1027">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Group permissions" id="1102" linksDest="1149" linksSrc="1108" type="Task" refs="1103">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Allow attendees to create group" id="1110" linksSrc="1149" type="Task" refs="1111">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Let participants choose group" id="1135" linksSrc="1141" type="Task" refs="1136">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Audio" id="1672" linksDest="1697" linksSrc="1696 2375 2376" type="Task" refs="1673 2374">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Mute/ Unmute" id="1674" linksSrc="1697 1979" type="Task" refs="1675 1941">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_autoSelected" value="20201108-180555796"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_autoSelected" value="20201126-165631081"/>
     </intElements>
     <intElements name="Train employees effectively" id="1700" linksDest="2378 2379 2380" linksSrc="2382" type="Goal" refs="1701">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="67"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
     <intElements name="Reduce costs" id="1702" linksDest="2381" linksSrc="2384" type="Goal" refs="1703 2406">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="47"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
     <intElements name="Save sessions for future employees" id="1706" linksDest="1802 2385" linksSrc="2381" type="Goal" refs="1707">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="47"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Promote group interaction" id="1710" linksDest="1836 2053 2105 2248 2297 2376" linksSrc="2379" type="Goal" refs="1711">
+    <intElements name="Promote group interaction" id="1710" linksDest="1836 2053 2105 2248 2297 2376 3074" linksSrc="2379" type="Goal" refs="1711">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="45"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
     <intElements name="Maintain employee privacy" id="1714" linksDest="1837 1905 1979 2186" linksSrc="2380 2385" type="Goal" refs="1715">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="95"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
     <intElements name="Increase employee productivity" id="1718" linksDest="2382" linksSrc="2383" type="Goal" refs="1719 2402">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="67"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Maximize profits" id="1722" linksDest="2383 2384" type="Goal" importance="High" importanceQuantitative="100" refs="1723 2416"/>
-    <intElements name="Diverse learning styles" id="1981" linksDest="2022 2298 2375" linksSrc="2378" type="Goal" refs="1982">
+    <intElements name="Maximize profits" id="1722" linksDest="2383 2384" type="Goal" importance="High" importanceQuantitative="100" refs="1723 2416">
+      <metadata name="_numEval" value="56"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="Diverse learning styles" id="1981" linksDest="2022 2298 2375 3090" linksSrc="2378" type="Goal" refs="1982">
       <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="80"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </intElements>
-    <intElements name="Goal2395" id="2395" type="Goal"/>
-    <intElements name="Goal2401" id="2401" type="Goal"/>
-    <intElements name="Goal2405" id="2405" type="Goal"/>
-    <actors name="Companies" id="2389" contRefs="2390"/>
+    <intElements name="Goal2395" id="2395" type="Goal">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Goal2401" id="2401" type="Goal">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Goal2405" id="2405" type="Goal">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Interactive Quiz" id="3070" linksSrc="3074" type="Task" refs="3071">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Live captions" id="3086" linksSrc="3090" type="Task" refs="3087">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <actors name="Companies" id="2389" contRefs="2390">
+      <metadata name="_numEval" value="56"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </actors>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory161" id="161" refs="//@urndef/@specDiagrams.0/@connections.0" dest="27" src="39" quantitativeContribution="50"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory216" id="216" refs="//@urndef/@specDiagrams.0/@connections.1" dest="15" src="27"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory268" id="268" refs="//@urndef/@specDiagrams.0/@connections.2" dest="27" src="250" quantitativeContribution="50"/>
@@ -164,7 +273,7 @@
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory1696" id="1696" refs="//@urndef/@specDiagrams.0/@connections.27" dest="15" src="1672"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory1697" id="1697" refs="//@urndef/@specDiagrams.0/@connections.28" dest="1672" src="1674" quantitativeContribution="100"/>
     <links xsi:type="grl:Contribution" name="Contribution1802" id="1802" refs="//@urndef/@specDiagrams.2/@connections.0" dest="1706" src="31" contribution="SomePositive" quantitativeContribution="50"/>
-    <links xsi:type="grl:Contribution" name="Contribution1836" id="1836" refs="//@urndef/@specDiagrams.2/@connections.1" dest="1710" src="43" quantitativeContribution="15"/>
+    <links xsi:type="grl:Contribution" name="Contribution1836" id="1836" refs="//@urndef/@specDiagrams.2/@connections.1" dest="1710" src="43" quantitativeContribution="10"/>
     <links xsi:type="grl:Contribution" name="Contribution1837" id="1837" refs="//@urndef/@specDiagrams.2/@connections.2" dest="1714" src="43" quantitativeContribution="15"/>
     <links xsi:type="grl:Contribution" name="Contribution1905" id="1905" refs="//@urndef/@specDiagrams.2/@connections.3" dest="1714" src="911" quantitativeContribution="5"/>
     <links xsi:type="grl:Contribution" name="Contribution1979" id="1979" refs="//@urndef/@specDiagrams.2/@connections.4" dest="1714" src="1674" quantitativeContribution="40"/>
@@ -172,11 +281,11 @@
     <links xsi:type="grl:Contribution" name="Contribution2053" id="2053" refs="//@urndef/@specDiagrams.2/@connections.6" dest="1710" src="35" quantitativeContribution="10"/>
     <links xsi:type="grl:Contribution" name="Contribution2105" id="2105" refs="//@urndef/@specDiagrams.2/@connections.7" dest="1710" src="995" quantitativeContribution="5"/>
     <links xsi:type="grl:Contribution" name="Contribution2186" id="2186" refs="//@urndef/@specDiagrams.2/@connections.8" dest="1714" src="39" quantitativeContribution="40"/>
-    <links xsi:type="grl:Contribution" name="Contribution2248" id="2248" refs="//@urndef/@specDiagrams.2/@connections.9" dest="1710" src="471"/>
-    <links xsi:type="grl:Contribution" name="Contribution2297" id="2297" refs="//@urndef/@specDiagrams.2/@connections.10" dest="1710" src="27" quantitativeContribution="20"/>
+    <links xsi:type="grl:Contribution" name="Contribution2248" id="2248" refs="//@urndef/@specDiagrams.2/@connections.9" dest="1710" src="471" quantitativeContribution="20"/>
+    <links xsi:type="grl:Contribution" name="Contribution2297" id="2297" refs="//@urndef/@specDiagrams.2/@connections.10" dest="1710" src="27" quantitativeContribution="15"/>
     <links xsi:type="grl:Contribution" name="Contribution2298" id="2298" refs="//@urndef/@specDiagrams.2/@connections.11" dest="1981" src="27" quantitativeContribution="20"/>
-    <links xsi:type="grl:Contribution" name="Contribution2375" id="2375" refs="//@urndef/@specDiagrams.2/@connections.12" dest="1981" src="1672" contribution="SomePositive" quantitativeContribution="50"/>
-    <links xsi:type="grl:Contribution" name="Contribution2376" id="2376" refs="//@urndef/@specDiagrams.2/@connections.13" dest="1710" src="1672"/>
+    <links xsi:type="grl:Contribution" name="Contribution2375" id="2375" refs="//@urndef/@specDiagrams.2/@connections.12" dest="1981" src="1672" quantitativeContribution="30"/>
+    <links xsi:type="grl:Contribution" name="Contribution2376" id="2376" refs="//@urndef/@specDiagrams.2/@connections.13" dest="1710" src="1672" quantitativeContribution="20"/>
     <links xsi:type="grl:Contribution" name="Contribution2378" id="2378" refs="//@urndef/@specDiagrams.2/@connections.14" dest="1700" src="1981" quantitativeContribution="30"/>
     <links xsi:type="grl:Contribution" name="Contribution2379" id="2379" refs="//@urndef/@specDiagrams.2/@connections.15" dest="1700" src="1710" quantitativeContribution="45"/>
     <links xsi:type="grl:Contribution" name="Contribution2380" id="2380" refs="//@urndef/@specDiagrams.2/@connections.16" dest="1700" src="1714"/>
@@ -185,7 +294,9 @@
     <links xsi:type="grl:Contribution" name="Contribution2383" id="2383" refs="//@urndef/@specDiagrams.2/@connections.19 //@urndef/@specDiagrams.1/@connections.1" dest="1722" src="1718" contribution="SomePositive" quantitativeContribution="50"/>
     <links xsi:type="grl:Contribution" name="Contribution2384" id="2384" refs="//@urndef/@specDiagrams.2/@connections.20 //@urndef/@specDiagrams.1/@connections.0" dest="1722" src="1702" contribution="SomePositive" quantitativeContribution="50"/>
     <links xsi:type="grl:Contribution" name="Contribution2385" id="2385" refs="//@urndef/@specDiagrams.2/@connections.21" dest="1706" src="1714" contribution="SomePositive" quantitativeContribution="50"/>
-    <groups name="StrategiesGroup5" id="5" strategies="1625 1626 1627 1635 1636">
+    <links xsi:type="grl:Contribution" name="Contribution3074" id="3074" refs="//@urndef/@specDiagrams.2/@connections.22" dest="1710" src="3070" quantitativeContribution="20"/>
+    <links xsi:type="grl:Contribution" name="Contribution3090" id="3090" refs="//@urndef/@specDiagrams.2/@connections.23" dest="1981" src="3086" quantitativeContribution="20"/>
+    <groups name="StrategiesGroup5" id="5" strategies="1625 1626 1627 1635 1636 3085">
       <metadata name="zoom" value="ju"/>
     </groups>
     <strategies name="Slack" id="1625" author="archa" group="5"/>
@@ -260,6 +371,41 @@
         <kpiEvalValueSet/>
       </evaluations>
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="987">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="NextGen Training" id="3085" author="archa" group="5">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="471">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="829">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1026">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="31">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="911">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="35">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="995">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="987">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="1135">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="3070">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="3086">
         <kpiEvalValueSet/>
       </evaluations>
     </strategies>
@@ -513,10 +659,10 @@
       <connections xsi:type="grl:LinkRef" source="2402" target="2416" link="2383">
         <label deltaX="30" deltaY="-30"/>
       </connections>
-      <comments description="By evaluating the various feature configurations, we come  to the following scores for each product:&#xD;&#xA;&#xD;&#xA;- Cisco Webex : 100&#xD;&#xA;- Microsoft Teams: 93&#xD;&#xA;- Skype: 93&#xD;&#xA;- Slack: 63&#xD;&#xA;- Zoom: 100&#xD;&#xA;&#xD;&#xA;Cisco Webex and Zoom are the most complete products out of the 5, since they have all the features in our feature model.&#xD;&#xA;Microsoft Teams and Skype on the other hand, while they definitely do have many features, are lacking the groups feature.&#xD;&#xA;Therefore, they are unable to have high scores in group interactions and thus the employees are not able to be trained effectively. &#xD;&#xA;This causes them to be unable to increase employee productivity effectively.&#xD;&#xA;As for Slack, since it lacks groups, polling, request for help, virtual background and the recording feature, it has to worse score in terms of increasing emplyee productivity as well as reducing costs for the comapny.&#xD;&#xA;Indeed, using Slack, the company is unable to save training sessions for future employees, therefore will have to pay additional training sessions in the future&#xD;&#xA;Overall, we can see how each feature is affecting the goal of a Company and which products best satisfy these goals.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" x="689" y="111" width="584" height="380" fillColor="255,255,200"/>
+      <comments description="By evaluating the various feature configurations, we come  to the following scores for each product:&#xD;&#xA;&#xD;&#xA;- Cisco Webex : 92&#xD;&#xA;- Microsoft Teams: 86&#xD;&#xA;- Skype: 86&#xD;&#xA;- Slack: 56&#xD;&#xA;- Zoom: 92&#xD;&#xA;- NextGen Training: 100&#xD;&#xA;&#xD;&#xA;NextGen Training has the most complete feature set out of the 6, and gains 100 points. The big differentiator between NextGen and the other two high &#xD;&#xA;ranking products ( Zoom and Cisco Webex) is the ability to have live captions and to create an interactive quiz.&#xD;&#xA;These two features promote more diverse learning methods and interactivity in the group, which in turn imrpove employee productivity and maximize profits.&#xD;&#xA;Cisco Webex and Zoom come in at a close second since they both have quite complete feature sets. &#xD;&#xA;However they do not have novel features such as live caption and interactive quizes.&#xD;&#xA;Microsoft Teams and Skype on the other hand, while they definitely do have many features, are lacking the groups feature.&#xD;&#xA;Therefore, they are unable to have high scores in group interactions and thus the employees are not able to be trained effectively. &#xD;&#xA;This causes them to be unable to increase employee productivity effectively.&#xD;&#xA;As for Slack, since it lacks groups, polling, request for help, virtual background, live captions, interactive quizzes and the recording feature, it has to worse score in terms of increasing emplyee productivity as well as reducing costs for the comapny.&#xD;&#xA;Indeed, using Slack, the company is unable to save training sessions for future employees, therefore will have to pay additional training sessions in the future&#xD;&#xA;Overall, we can see how each feature is affecting the goal of a Company and which products best satisfy these goals.&#xD;&#xA;&#xD;&#xA;NextGen Training is clearly the best product on the market for companies&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" x="704" y="66" width="584" height="481" fillColor="255,255,200"/>
     </specDiagrams>
     <specDiagrams xsi:type="grl:GRLGraph" name="Companies Goal Model" id="1699">
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1701" id="1701" x="263" y="221" succ="//@urndef/@specDiagrams.2/@connections.18" pred="//@urndef/@specDiagrams.2/@connections.14 //@urndef/@specDiagrams.2/@connections.15 //@urndef/@specDiagrams.2/@connections.16" def="1700">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1701" id="1701" x="270" y="189" succ="//@urndef/@specDiagrams.2/@connections.18" pred="//@urndef/@specDiagrams.2/@connections.14 //@urndef/@specDiagrams.2/@connections.15 //@urndef/@specDiagrams.2/@connections.16" def="1700">
         <metadata name="_height" value="52"/>
         <metadata name="_width" value="135"/>
       </nodes>
@@ -528,11 +674,11 @@
         <metadata name="_height" value="49"/>
         <metadata name="_width" value="141"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1711" id="1711" x="321" y="348" succ="//@urndef/@specDiagrams.2/@connections.15" pred="//@urndef/@specDiagrams.2/@connections.1 //@urndef/@specDiagrams.2/@connections.6 //@urndef/@specDiagrams.2/@connections.7 //@urndef/@specDiagrams.2/@connections.9 //@urndef/@specDiagrams.2/@connections.10 //@urndef/@specDiagrams.2/@connections.13" def="1710">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1711" id="1711" x="354" y="340" succ="//@urndef/@specDiagrams.2/@connections.15" pred="//@urndef/@specDiagrams.2/@connections.1 //@urndef/@specDiagrams.2/@connections.6 //@urndef/@specDiagrams.2/@connections.7 //@urndef/@specDiagrams.2/@connections.9 //@urndef/@specDiagrams.2/@connections.10 //@urndef/@specDiagrams.2/@connections.13 //@urndef/@specDiagrams.2/@connections.22" def="1710">
         <metadata name="_height" value="53"/>
         <metadata name="_width" value="129"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1715" id="1715" x="690" y="354" succ="//@urndef/@specDiagrams.2/@connections.16 //@urndef/@specDiagrams.2/@connections.21" pred="//@urndef/@specDiagrams.2/@connections.2 //@urndef/@specDiagrams.2/@connections.3 //@urndef/@specDiagrams.2/@connections.4 //@urndef/@specDiagrams.2/@connections.8" def="1714">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1715" id="1715" x="711" y="340" succ="//@urndef/@specDiagrams.2/@connections.16 //@urndef/@specDiagrams.2/@connections.21" pred="//@urndef/@specDiagrams.2/@connections.2 //@urndef/@specDiagrams.2/@connections.3 //@urndef/@specDiagrams.2/@connections.4 //@urndef/@specDiagrams.2/@connections.8" def="1714">
         <metadata name="_height" value="55"/>
         <metadata name="_width" value="129"/>
       </nodes>
@@ -548,7 +694,7 @@
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1835" id="1835" x="555" y="435" succ="//@urndef/@specDiagrams.2/@connections.1 //@urndef/@specDiagrams.2/@connections.2" def="43">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1835" id="1835" x="576" y="424" succ="//@urndef/@specDiagrams.2/@connections.1 //@urndef/@specDiagrams.2/@connections.2" def="43">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -560,19 +706,19 @@
         <metadata name="_height" value="58"/>
         <metadata name="_width" value="130"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1982" id="1982" x="77" y="290" succ="//@urndef/@specDiagrams.2/@connections.14" pred="//@urndef/@specDiagrams.2/@connections.5 //@urndef/@specDiagrams.2/@connections.11 //@urndef/@specDiagrams.2/@connections.12" def="1981">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1982" id="1982" x="100" y="276" succ="//@urndef/@specDiagrams.2/@connections.14" pred="//@urndef/@specDiagrams.2/@connections.5 //@urndef/@specDiagrams.2/@connections.11 //@urndef/@specDiagrams.2/@connections.12 //@urndef/@specDiagrams.2/@connections.23" def="1981">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2020" id="2020" x="-50" y="380" succ="//@urndef/@specDiagrams.2/@connections.5" def="250">
-        <metadata name="_height" value="58"/>
-        <metadata name="_width" value="130"/>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2020" id="2020" x="-33" y="379" succ="//@urndef/@specDiagrams.2/@connections.5" def="250">
+        <metadata name="_height" value="48"/>
+        <metadata name="_width" value="112"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2052" id="2052" x="365" y="556" succ="//@urndef/@specDiagrams.2/@connections.6" def="35">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2052" id="2052" x="429" y="553" succ="//@urndef/@specDiagrams.2/@connections.6" def="35">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2104" id="2104" x="222" y="554" succ="//@urndef/@specDiagrams.2/@connections.7" def="995">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2104" id="2104" x="148" y="542" succ="//@urndef/@specDiagrams.2/@connections.7" def="995">
         <metadata name="_height" value="58"/>
         <metadata name="_width" value="130"/>
       </nodes>
@@ -580,15 +726,23 @@
         <metadata name="_height" value="58"/>
         <metadata name="_width" value="130"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2247" id="2247" x="495" y="536" succ="//@urndef/@specDiagrams.2/@connections.9" def="471">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2247" id="2247" x="542" y="535" succ="//@urndef/@specDiagrams.2/@connections.9" def="471">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2296" id="2296" x="82" y="542" succ="//@urndef/@specDiagrams.2/@connections.10 //@urndef/@specDiagrams.2/@connections.11" def="27">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2296" id="2296" x="1" y="519" succ="//@urndef/@specDiagrams.2/@connections.10 //@urndef/@specDiagrams.2/@connections.11" def="27">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2374" id="2374" x="153" y="389" succ="//@urndef/@specDiagrams.2/@connections.12 //@urndef/@specDiagrams.2/@connections.13" def="1672">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef2374" id="2374" x="173" y="378" succ="//@urndef/@specDiagrams.2/@connections.12 //@urndef/@specDiagrams.2/@connections.13" def="1672">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef3071" id="3071" x="293" y="548" succ="//@urndef/@specDiagrams.2/@connections.22" def="3070">
+        <metadata name="_width" value="123"/>
+        <metadata name="_height" value="58"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef3087" id="3087" x="-25" y="186" succ="//@urndef/@specDiagrams.2/@connections.23" def="3086">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -596,7 +750,7 @@
         <label deltaX="30" deltaY="-30"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="1835" target="1711" link="1836">
-        <label deltaX="-31" deltaY="-83"/>
+        <label deltaX="-17" deltaY="-83"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="1835" target="1715" link="1837">
         <label deltaX="30" deltaY="-30"/>
@@ -611,10 +765,10 @@
         <label deltaX="30" deltaY="-30"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="2052" target="1711" link="2053">
-        <label deltaX="29" deltaY="-117"/>
+        <label deltaX="19" deltaY="-139"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="2104" target="1711" link="2105">
-        <label deltaX="22" deltaY="-141"/>
+        <label deltaX="16" deltaY="-200"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="2185" target="1715" link="2186">
         <label deltaX="-21" deltaY="-65"/>
@@ -623,13 +777,13 @@
         <label deltaX="-21" deltaY="-160"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="2296" target="1711" link="2297">
-        <label deltaX="-18" deltaY="-197"/>
+        <label deltaX="15" deltaY="-211"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="2296" target="1982" link="2298">
-        <label deltaX="34" deltaY="-146"/>
+        <label deltaX="-22" deltaY="-137"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="2374" target="1982" link="2375">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="-27" deltaY="-50"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="2374" target="1711" link="2376">
         <label deltaX="28" deltaY="-38"/>
@@ -657,6 +811,12 @@
       </connections>
       <connections xsi:type="grl:LinkRef" source="1715" target="1707" link="2385">
         <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="3071" target="1711" link="3074">
+        <label deltaX="19" deltaY="-141"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="3087" target="1982" link="3090">
+        <label deltaX="48" deltaY="-60"/>
       </connections>
     </specDiagrams>
     <specDiagrams xsi:type="ucm.map:UCMmap" name="Create Group" id="2387">
